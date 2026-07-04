@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
     <title>New Balangoda Curtain</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
@@ -196,10 +196,20 @@
             }
         }
     </style>
+    <script>
+        // Security Settings
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'F12') { e.preventDefault(); return false; }
+            if (e.ctrlKey && e.shiftKey && ['I', 'i', 'J', 'j', 'C', 'c'].includes(e.key)) { e.preventDefault(); return false; }
+            if (e.ctrlKey && ['U', 'u', 'C', 'c', 'P', 'p', 'S', 's'].includes(e.key)) { e.preventDefault(); return false; }
+        });
+        document.addEventListener('dragstart', (e) => { e.preventDefault(); });
+    </script>
 </head>
 
 <body
-    class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+    class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container select-none overflow-x-hidden w-full">
     <header
         class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
         <nav class="max-w-container-max mx-auto px-4 md:px-gutter py-4">
@@ -346,7 +356,7 @@
                     <span
                         class="font-label-caps text-secondary tracking-widest text-xs uppercase block mb-3">Feedback</span>
                     <h2 class="font-headline-md text-3xl md:text-4xl text-primary font-semibold">Leave a Comment</h2>
-                    <p class="font-body-md text-on-surface-variant mt-3">අපගේ නිර්මාණ පිළිබඳ ඔබගේ අදහස් දැන ගැනීමට අපි
+                    <p class="font-body-md text-on-surface-variant mt-3">අපගේ නිර්මාණ පිළිබඳ ඔබගේ අදහස් දැනගැනීමට අපි
                         කැමතියි.</p>
                 </div>
                 <form class="relative z-10 space-y-6">
