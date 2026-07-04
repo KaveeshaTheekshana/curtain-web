@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
     <title>Our Work | Lumina Shades</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
@@ -167,10 +167,20 @@
             animation: fadeInDown 0.3s ease-out forwards;
         }
     </style>
+    <script>
+        // Security Settings
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'F12') { e.preventDefault(); return false; }
+            if (e.ctrlKey && e.shiftKey && ['I', 'i', 'J', 'j', 'C', 'c'].includes(e.key)) { e.preventDefault(); return false; }
+            if (e.ctrlKey && ['U', 'u', 'C', 'c', 'P', 'p', 'S', 's'].includes(e.key)) { e.preventDefault(); return false; }
+        });
+        document.addEventListener('dragstart', (e) => { e.preventDefault(); });
+    </script>
 </head>
 
 <body
-    class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+    class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container select-none overflow-x-hidden w-full">
     <header
         class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
         <nav class="max-w-container-max mx-auto px-4 md:px-gutter py-4">
