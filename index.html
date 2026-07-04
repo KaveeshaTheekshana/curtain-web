@@ -7,7 +7,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>New Balangoda Curtain</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Sinhala:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Sinhala:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
@@ -113,10 +115,19 @@
 
         /* WhatsApp Button Animation */
         @keyframes pulse-whatsapp {
-            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
-            70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
         }
+
         .whatsapp-float {
             animation: pulse-whatsapp 2s infinite;
         }
@@ -127,10 +138,12 @@
             pointer-events: none;
             transition: opacity 0.5s ease;
         }
+
         #virtual-room-modal.active {
             opacity: 1;
             pointer-events: auto;
         }
+
         .curtain-layer {
             mix-blend-mode: multiply;
         }
@@ -178,25 +191,30 @@
             </a>
             <div class="hidden md:flex items-center gap-10">
                 <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps cursor-pointer active:scale-95 group"
-                    href="#">
+                    href="oder.html">
                     Products
-                    <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps cursor-pointer active:scale-95 group"
-                    href=".oder.html">
+                    href="oder.html">
                     Gallery
-                    <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps cursor-pointer active:scale-95 group"
-                    href="#">
+                    href="https://wa.me/94763215396" target="_blank">
                     Contact
-                    <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                 </a>
             </div>
-            <a href="https://wa.me/94770000000" target="_blank"
+            <a href="https://wa.me/94763215396" target="_blank"
                 class="flex items-center gap-2 bg-[#25D366] text-white px-6 py-2.5 rounded-full font-label-caps text-sm font-bold cursor-pointer hover:scale-105 transition-transform shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
                 </svg>
                 WhatsApp
             </a>
@@ -206,26 +224,31 @@
         <!-- Modern Dynamic Hero Section -->
         <section class="max-w-container-max mx-auto px-gutter mb-20 relative">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-5 order-2 lg:order-1 z-10 relative bg-surface/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl lg:shadow-none lg:bg-transparent lg:p-0 lg:backdrop-blur-none mt-8 lg:mt-0">
+                <div
+                    class="lg:col-span-5 order-2 lg:order-1 z-10 relative bg-surface/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl lg:shadow-none lg:bg-transparent lg:p-0 lg:backdrop-blur-none mt-8 lg:mt-0">
                     <h1 class="font-display-lg text-3xl md:text-5xl lg:text-6xl text-primary mb-6 font-semibold leading-tight"
                         data-aos="fade-right" data-aos-duration="1200">
-                        ඔබේ නිවසට නව රූපයක් ගෙනෙන  <br /><span class="text-secondary">අලංකාර තිර රෙදි</span>
+                        ඔබේ නිවසට නව පෙනුමක් ගෙනෙන <br /><span class="text-secondary">අලංකාර තිර රෙදි</span>
                     </h1>
                     <p class="font-body-lg text-body-lg text-on-surface-variant mb-4 lg:mb-8" data-aos="fade-up"
                         data-aos-delay="300" data-aos-duration="1200">
-                        නිවසේ හෝ ව්‍යාපාරික ස්ථානයේ අලංකාරය වැඩි කරන උසස් තත්ත්වයේ තිර රෙදි අප වෙතින් ලබාගන්න. ඔබේ අවශ්‍යතාවයට අනුව නිර්මාණය, මිනුම් ගැනීම සහ ස්ථාපනය දක්වා සම්පූර්ණ සේවාවක් එකම තැනකින්.
+                        නිවසේ හෝ ව්‍යාපාරික ස්ථානයේ අලංකාරය වැඩි කරන උසස් තත්ත්වයේ තිර රෙදි අප වෙතින් ලබාගන්න. ඔබේ
+                        අවශ්‍යතාවයට අනුව නිර්මාණය, මිනුම් ගැනීම සහ ස්ථාපනය දක්වා සම්පූර්ණ සේවාවක් එකම තැනකින්.
                     </p>
                 </div>
                 <div class="lg:col-span-7 order-1 lg:order-2 relative" data-aos="fade-left" data-aos-duration="1500">
                     <div class="relative w-full aspect-[4/3] lg:aspect-[16/11] rounded-3xl overflow-hidden shadow-2xl">
-                        <img id="dynamic-hero-img" src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000" alt="Hero Curtain Design">
+                        <img id="dynamic-hero-img"
+                            src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000"
+                            alt="Hero Curtain Design">
                         <!-- Decorative overlay element -->
                         <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-secondary/10 rounded-full blur-2xl"></div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- Asymmetrical Masonry Gallery Grid -->
         <section class="max-w-container-max mx-auto px-gutter mb-16">
             <div id="index-gallery-grid" class="masonry-grid gap-y-16 gap-x-12">
@@ -264,23 +287,35 @@
 
         <!-- Comment Section -->
         <section class="max-w-container-max mx-auto px-gutter mb-section-gap">
-            <div class="max-w-3xl mx-auto bg-surface border border-outline-variant/30 p-8 md:p-12 rounded-3xl shadow-lg relative overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-                <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, #785a1a 1px, transparent 0); background-size: 40px 40px;"></div>
+            <div class="max-w-3xl mx-auto bg-surface border border-outline-variant/30 p-8 md:p-12 rounded-3xl shadow-lg relative overflow-hidden"
+                data-aos="fade-up" data-aos-duration="1000">
+                <div class="absolute inset-0 opacity-5 pointer-events-none"
+                    style="background-image: radial-gradient(circle at 2px 2px, #785a1a 1px, transparent 0); background-size: 40px 40px;">
+                </div>
                 <div class="relative z-10 text-center mb-8">
-                    <span class="font-label-caps text-secondary tracking-widest text-xs uppercase block mb-3">Feedback</span>
+                    <span
+                        class="font-label-caps text-secondary tracking-widest text-xs uppercase block mb-3">Feedback</span>
                     <h2 class="font-headline-md text-3xl md:text-4xl text-primary font-semibold">Leave a Comment</h2>
-                    <p class="font-body-md text-on-surface-variant mt-3">We would love to hear your thoughts about our designs.</p>
+                    <p class="font-body-md text-on-surface-variant mt-3">We would love to hear your thoughts about our
+                        designs.</p>
                 </div>
                 <form class="relative z-10 space-y-6">
                     <div>
-                        <label for="name" class="block font-label-caps text-xs text-primary mb-2 tracking-wide">Your Name</label>
-                        <input type="text" id="name" class="w-full bg-white border border-outline-variant/50 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none px-4 py-3 rounded-lg font-body-md text-on-surface transition-all" placeholder="Enter your name">
+                        <label for="name" class="block font-label-caps text-xs text-primary mb-2 tracking-wide">Your
+                            Name</label>
+                        <input type="text" id="name"
+                            class="w-full bg-white border border-outline-variant/50 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none px-4 py-3 rounded-lg font-body-md text-on-surface transition-all"
+                            placeholder="Enter your name">
                     </div>
                     <div>
-                        <label for="comment" class="block font-label-caps text-xs text-primary mb-2 tracking-wide">Your Comment</label>
-                        <textarea id="comment" rows="4" class="w-full bg-white border border-outline-variant/50 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none px-4 py-3 rounded-lg font-body-md text-on-surface transition-all resize-none" placeholder="Write your comment here..."></textarea>
+                        <label for="comment" class="block font-label-caps text-xs text-primary mb-2 tracking-wide">Your
+                            Comment</label>
+                        <textarea id="comment" rows="4"
+                            class="w-full bg-white border border-outline-variant/50 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none px-4 py-3 rounded-lg font-body-md text-on-surface transition-all resize-none"
+                            placeholder="Write your comment here..."></textarea>
                     </div>
-                    <button type="submit" id="submit-comment-btn" class="w-full bg-primary text-white font-label-caps text-sm tracking-widest px-8 py-4 rounded-lg hover:bg-primary/90 hover:scale-[1.02] transition-all shadow-md">
+                    <button type="submit" id="submit-comment-btn"
+                        class="w-full bg-primary text-white font-label-caps text-sm tracking-widest px-8 py-4 rounded-lg hover:bg-primary/90 hover:scale-[1.02] transition-all shadow-md">
                         POST COMMENT
                     </button>
                 </form>
@@ -290,7 +325,9 @@
                         <!-- Comments will be loaded here -->
                     </div>
                     <div class="text-center mt-6">
-                        <button id="load-more-comments-btn" class="hidden font-label-caps text-xs tracking-widest text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all">LOAD MORE</button>
+                        <button id="load-more-comments-btn"
+                            class="hidden font-label-caps text-xs tracking-widest text-primary border-b border-primary/20 pb-1 hover:border-primary transition-all">LOAD
+                            MORE</button>
                     </div>
                 </div>
             </div>
@@ -307,9 +344,11 @@
                     NEW BALANGODA CURTAIN
                 </div>
                 <p class="font-body-md text-inverse-on-surface/70 max-w-sm leading-relaxed">
-                   ඔබගේ නිවසට, කාර්යාලයට හෝ ව්‍යාපාරික ස්ථානයට ගැලපෙන උසස් තත්ත්වයේ තිර රෙදි සහ බ්ලයින්ඩ් විසඳුම් ලබාදීම අපගේ අරමුණයි. නවීන මෝස්තර, විශ්වාසනීය සේවාව සහ සාධාරණ මිල ගණන් සමඟ ඔබේ අවකාශය වඩාත් අලංකාර කරමු.
+                    ඔබගේ නිවසට, කාර්යාලයට හෝ ව්‍යාපාරික ස්ථානයට ගැලපෙන උසස් තත්ත්වයේ තිර රෙදි සහ බ්ලයින්ඩ් විසඳුම්
+                    ලබාදීම අපගේ අරමුණයි. නවීන මෝස්තර, විශ්වාසනීය සේවාව සහ සාධාරණ මිල ගණන් සමඟ ඔබේ අවකාශය වඩාත් අලංකාර
+                    කරමු.
 
-අපගේ සේවාවන්
+                    අපගේ සේවාවන්
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-16">
@@ -328,7 +367,8 @@
                     <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
                         href="#">Contact Us</a>
                     <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
-                        href="https://www.facebook.com/profile.php?id=61571159896916&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                        href="https://www.facebook.com/profile.php?id=61571159896916&mibextid=ZbWKwL"
+                        target="_blank">Facebook</a>
                 </div>
             </div>
         </div>
@@ -358,157 +398,158 @@
         });
     </script>
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const isGallery = window.location.pathname.includes('extracted_other');
-        const apiPath = 'https://curtain.kaveesha.top/api';
-        const uploadPath = 'https://curtain.kaveesha.top/';
-        
-        fetch(apiPath + '/get_config.php')
-            .then(res => res.json())
-            .then(data => {
-                // Set Dynamic Hero Image
-                const heroImgEl = document.getElementById('dynamic-hero-img');
-                if(heroImgEl && data.hero_image) {
-                    heroImgEl.src = uploadPath + data.hero_image;
-                }
-            }).catch(e => console.log('Config fetch error', e));
-            
-        // --- Comments Logic ---
-        let currentCommentOffset = 0;
-        const COMMENTS_LIMIT = 3;
+        document.addEventListener('DOMContentLoaded', () => {
+            const isGallery = window.location.pathname.includes('extracted_other');
+            const apiPath = 'https://curtain.kaveesha.top/api';
+            const uploadPath = 'https://curtain.kaveesha.top/';
 
-        async function fetchComments(loadMore = false) {
-            try {
-                if (!loadMore) currentCommentOffset = 0;
-                const response = await fetch(`${apiPath}/get_comments.php?limit=${COMMENTS_LIMIT}&offset=${currentCommentOffset}`);
-                const data = await response.json();
-                
-                const container = document.getElementById('comments-container');
-                if (!loadMore) container.innerHTML = '';
-                
-                if (data.comments.length === 0 && !loadMore) {
-                    container.innerHTML = '<p class="text-sm text-on-surface-variant italic">No comments yet. Be the first to share your thoughts!</p>';
-                } else {
-                    data.comments.forEach(comment => {
-                        const date = new Date(comment.created_at).toLocaleDateString();
-                        const el = document.createElement('div');
-                        el.className = 'bg-white/50 border border-outline-variant/30 rounded-lg p-4 shadow-sm';
-                        el.innerHTML = `
+            fetch(apiPath + '/get_config.php')
+                .then(res => res.json())
+                .then(data => {
+                    // Set Dynamic Hero Image
+                    const heroImgEl = document.getElementById('dynamic-hero-img');
+                    if (heroImgEl && data.hero_image) {
+                        heroImgEl.src = uploadPath + data.hero_image;
+                    }
+                }).catch(e => console.log('Config fetch error', e));
+
+            // --- Comments Logic ---
+            let currentCommentOffset = 0;
+            const COMMENTS_LIMIT = 3;
+
+            async function fetchComments(loadMore = false) {
+                try {
+                    if (!loadMore) currentCommentOffset = 0;
+                    const response = await fetch(`${apiPath}/get_comments.php?limit=${COMMENTS_LIMIT}&offset=${currentCommentOffset}`);
+                    const data = await response.json();
+
+                    const container = document.getElementById('comments-container');
+                    if (!loadMore) container.innerHTML = '';
+
+                    if (data.comments.length === 0 && !loadMore) {
+                        container.innerHTML = '<p class="text-sm text-on-surface-variant italic">No comments yet. Be the first to share your thoughts!</p>';
+                    } else {
+                        data.comments.forEach(comment => {
+                            const date = new Date(comment.created_at).toLocaleDateString();
+                            const el = document.createElement('div');
+                            el.className = 'bg-white/50 border border-outline-variant/30 rounded-lg p-4 shadow-sm';
+                            el.innerHTML = `
                             <div class="flex justify-between items-center mb-2">
                                 <span class="font-label-caps font-bold text-xs text-primary">${comment.name}</span>
                                 <span class="text-[10px] text-on-surface-variant">${date}</span>
                             </div>
                             <p class="font-body-md text-sm text-on-surface">${comment.comment}</p>
                         `;
-                        container.appendChild(el);
-                    });
-                }
-                
-                const loadMoreBtn = document.getElementById('load-more-comments-btn');
-                if (data.has_more) {
-                    loadMoreBtn.classList.remove('hidden');
-                } else {
-                    loadMoreBtn.classList.add('hidden');
-                }
-            } catch (error) {
-                console.error("Error fetching comments:", error);
-            }
-        }
-
-        const loadMoreCommentsBtn = document.getElementById('load-more-comments-btn');
-        if(loadMoreCommentsBtn) {
-            loadMoreCommentsBtn.addEventListener('click', () => {
-                currentCommentOffset += COMMENTS_LIMIT;
-                fetchComments(true);
-            });
-        }
-
-        const commentForm = document.querySelector('form');
-        if(commentForm) {
-            commentForm.addEventListener('submit', async (e) => {
-                e.preventDefault();
-                const nameEl = document.getElementById('name');
-                const commentEl = document.getElementById('comment');
-                const name = nameEl ? nameEl.value : '';
-                const comment = commentEl ? commentEl.value : '';
-                const btn = document.getElementById('submit-comment-btn');
-                
-                if (!name || !comment) return alert("Please fill in both name and comment.");
-                
-                btn.textContent = 'POSTING...';
-                btn.disabled = true;
-                
-                try {
-                    const formData = new FormData();
-                    formData.append('name', name);
-                    formData.append('comment', comment);
-                    
-                    const response = await fetch(`${apiPath}/add_comment.php`, {
-                        method: 'POST',
-                        body: formData
-                    });
-                    const result = await response.json();
-                    
-                    if (result.success) {
-                        nameEl.value = '';
-                        commentEl.value = '';
-                        fetchComments(false);
-                        alert("Thank you for your comment!");
-                    } else {
-                        alert(result.error || "Failed to post comment.");
+                            container.appendChild(el);
+                        });
                     }
-                } catch (err) {
-                    alert("Error posting comment.");
-                } finally {
-                    btn.textContent = 'POST COMMENT';
-                    btn.disabled = false;
-                }
-            });
-        }
-        
-        // Initial fetch
-        fetchComments();
-                
-        // --- DYNAMIC INDEX GALLERY & LOAD ARCHIVE ---
-        
-        let allGalleryImages = [];
-        let currentlyDisplayedCount = 0;
-        const imagesPerLoad = 6;
-        const grid = document.getElementById('index-gallery-grid');
-        const loadMoreBtn = document.getElementById('load-more-btn');
 
-        fetch(apiPath + '/get_gallery.php')
-            .then(res => res.json())
-            .then(data => {
-                if(data.length === 0) {
-                    grid.innerHTML = '<div class="col-span-full text-center py-20 text-on-surface-variant font-body-lg">Check back later for our latest projects.</div>';
-                    loadMoreBtn.style.display = 'none';
-                    return;
+                    const loadMoreBtn = document.getElementById('load-more-comments-btn');
+                    if (data.has_more) {
+                        loadMoreBtn.classList.remove('hidden');
+                    } else {
+                        loadMoreBtn.classList.add('hidden');
+                    }
+                } catch (error) {
+                    console.error("Error fetching comments:", error);
                 }
-                allGalleryImages = data;
-                renderNextImages();
-            }).catch(e => console.log('Dynamic gallery error', e));
+            }
 
-        function renderNextImages() {
-            const nextBatch = allGalleryImages.slice(currentlyDisplayedCount, currentlyDisplayedCount + imagesPerLoad);
-            
-            nextBatch.forEach((item, batchIndex) => {
-                const totalIndex = currentlyDisplayedCount + batchIndex;
-                const cyclePos = totalIndex % 6; // We have 6 distinct styles
-                
-                const absoluteImgUrl = new URL(uploadPath + item.image_url, window.location.href).href;
-                const encryptedUrl = btoa(absoluteImgUrl);
-                const waText = encodeURIComponent(`I'm interested in this design: ${item.title}.\nRef: ${encryptedUrl}\nCan I get more details?`);
-                
-                const el = document.createElement('div');
-                el.setAttribute('data-aos', 'fade-up');
-                el.setAttribute('data-aos-duration', '1000');
-                
-                // Style configurations
-                if (cyclePos === 0 || cyclePos === 1) {
-                    // Type 1: Vertical [4/5]
-                    el.className = 'md:col-span-6';
-                    el.innerHTML = `
+            const loadMoreCommentsBtn = document.getElementById('load-more-comments-btn');
+            if (loadMoreCommentsBtn) {
+                loadMoreCommentsBtn.addEventListener('click', () => {
+                    currentCommentOffset += COMMENTS_LIMIT;
+                    fetchComments(true);
+                });
+            }
+
+            const commentForm = document.querySelector('form');
+            if (commentForm) {
+                commentForm.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    const nameEl = document.getElementById('name');
+                    const commentEl = document.getElementById('comment');
+                    const name = nameEl ? nameEl.value : '';
+                    const comment = commentEl ? commentEl.value : '';
+                    const btn = document.getElementById('submit-comment-btn');
+
+                    if (!name || !comment) return alert("Please fill in both name and comment.");
+
+                    btn.textContent = 'POSTING...';
+                    btn.disabled = true;
+
+                    try {
+                        const formData = new FormData();
+                        formData.append('name', name);
+                        formData.append('comment', comment);
+
+                        const response = await fetch(`${apiPath}/add_comment.php`, {
+                            method: 'POST',
+                            body: formData
+                        });
+                        const result = await response.json();
+
+                        if (result.success) {
+                            nameEl.value = '';
+                            commentEl.value = '';
+                            fetchComments(false);
+                            alert("Thank you for your comment!");
+                        } else {
+                            alert(result.error || "Failed to post comment.");
+                        }
+                    } catch (err) {
+                        alert("Error posting comment.");
+                    } finally {
+                        btn.textContent = 'POST COMMENT';
+                        btn.disabled = false;
+                    }
+                });
+            }
+
+            // Initial fetch
+            fetchComments();
+
+            // --- DYNAMIC INDEX GALLERY & LOAD ARCHIVE ---
+
+            let allGalleryImages = [];
+            let currentlyDisplayedCount = 0;
+            const imagesPerLoad = 6;
+            const grid = document.getElementById('index-gallery-grid');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+
+            fetch(apiPath + '/get_gallery.php')
+                .then(res => res.json())
+                .then(data => {
+                    if (data.length === 0) {
+                        grid.innerHTML = '<div class="col-span-full text-center py-20 text-on-surface-variant font-body-lg">Check back later for our latest projects.</div>';
+                        loadMoreBtn.style.display = 'none';
+                        return;
+                    }
+                    allGalleryImages = data;
+                    renderNextImages();
+                }).catch(e => console.log('Dynamic gallery error', e));
+
+            function renderNextImages() {
+                const nextBatch = allGalleryImages.slice(currentlyDisplayedCount, currentlyDisplayedCount + imagesPerLoad);
+
+                nextBatch.forEach((item, batchIndex) => {
+                    const totalIndex = currentlyDisplayedCount + batchIndex;
+                    const cyclePos = totalIndex % 6; // We have 6 distinct styles
+
+                    const absoluteImgUrl = new URL(uploadPath + item.image_url, window.location.href).href;
+                    const safeBase64 = btoa(absoluteImgUrl).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+                    const viewLink = `${apiPath}/view.php?id=${safeBase64}`;
+                    const waText = encodeURIComponent(`I'm interested in this design: ${item.title}.\nLink: ${viewLink}\nCan I get more details?`);
+
+                    const el = document.createElement('div');
+                    el.setAttribute('data-aos', 'fade-up');
+                    el.setAttribute('data-aos-duration', '1000');
+
+                    // Style configurations
+                    if (cyclePos === 0 || cyclePos === 1) {
+                        // Type 1: Vertical [4/5]
+                        el.className = 'md:col-span-6';
+                        el.innerHTML = `
                         <div class="museum-card p-4 border border-outline-variant/30 bg-white/5 group">
                             <div class="relative overflow-hidden aspect-[4/5] mb-6">
                                 <img alt="${item.title}" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="${uploadPath + item.image_url}" />
@@ -520,7 +561,7 @@
                                 <span class="font-label-caps text-[10px] tracking-widest text-secondary uppercase block mb-2">Design</span>
                                 <h3 class="font-headline-md text-2xl text-primary mb-2">${item.title}</h3>
                                 <p class="font-body-md text-on-surface-variant text-sm mb-4">${item.subtitle}</p>
-                                <a href="https://wa.me/94770000000?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
+                                <a href="https://wa.me/94763215396?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                                     </svg>
@@ -529,10 +570,10 @@
                             </div>
                         </div>
                     `;
-                } else if (cyclePos === 2) {
-                    // Type 2: Wide Horizontal
-                    el.className = 'md:col-span-12';
-                    el.innerHTML = `
+                    } else if (cyclePos === 2) {
+                        // Type 2: Wide Horizontal
+                        el.className = 'md:col-span-12';
+                        el.innerHTML = `
                         <div class="museum-card p-6 border border-outline-variant/30 bg-white/5 group flex flex-col md:flex-row gap-8">
                             <div class="md:w-1/2 relative overflow-hidden aspect-video">
                                 <img alt="${item.title}" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="${uploadPath + item.image_url}" />
@@ -546,7 +587,7 @@
                                 <p class="font-body-md text-on-surface-variant mb-6">${item.subtitle}</p>
                                 <div class="flex items-center gap-4">
 
-                                    <a href="https://wa.me/94770000000?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
+                                    <a href="https://wa.me/94763215396?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                             <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                                         </svg>
@@ -556,10 +597,10 @@
                             </div>
                         </div>
                     `;
-                } else {
-                    // Type 3: Small Square
-                    el.className = 'md:col-span-4';
-                    el.innerHTML = `
+                    } else {
+                        // Type 3: Small Square
+                        el.className = 'md:col-span-4';
+                        el.innerHTML = `
                         <div class="museum-card p-4 border border-outline-variant/30 bg-white/5 group">
                             <div class="relative overflow-hidden aspect-square mb-6">
                                 <img alt="${item.title}" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="${uploadPath + item.image_url}" />
@@ -571,7 +612,7 @@
                                 <span class="font-label-caps text-[10px] tracking-widest text-secondary uppercase block mb-2">Design</span>
                                 <h3 class="font-headline-md text-2xl text-primary mb-2">${item.title}</h3>
                                 <p class="font-body-md text-on-surface-variant text-sm mb-4">${item.subtitle}</p>
-                                <a href="https://wa.me/94770000000?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
+                                <a href="https://wa.me/94763215396?text=${waText}" target="_blank" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg font-label-caps text-[10px] font-bold hover:scale-105 transition-transform">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                                     </svg>
@@ -580,87 +621,95 @@
                             </div>
                         </div>
                     `;
+                    }
+                    grid.appendChild(el);
+                });
+
+                currentlyDisplayedCount += nextBatch.length;
+
+                // Hide button if no more items
+                if (currentlyDisplayedCount >= allGalleryImages.length) {
+                    loadMoreBtn.style.display = 'none';
                 }
-                grid.appendChild(el);
-            });
-            
-            currentlyDisplayedCount += nextBatch.length;
-            
-            // Hide button if no more items
-            if (currentlyDisplayedCount >= allGalleryImages.length) {
-                loadMoreBtn.style.display = 'none';
+
+                // Refresh AOS animations for new elements
+                if (typeof AOS !== 'undefined') {
+                    AOS.refresh();
+                }
             }
-            
-            // Refresh AOS animations for new elements
-            if (typeof AOS !== 'undefined') {
-                AOS.refresh();
+
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', () => {
+                    renderNextImages();
+                });
             }
-        }
-        
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', () => {
-                renderNextImages();
-            });
-        }
 
 
-    });
-</script>
+        });
+    </script>
 
-<!-- Design Preview Modal -->
-<div id="virtual-room-modal" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-md">
-    <button id="close-vr-btn" class="absolute top-8 right-8 text-white hover:text-primary transition-colors bg-white/10 hover:bg-white/20 p-3 rounded-full cursor-pointer z-50">
-        <span class="material-symbols-outlined text-3xl">close</span>
-    </button>
-    <div class="relative w-[95vw] h-[85vh] max-w-7xl rounded-xl flex items-center justify-center">
-        <!-- The actual flat curtain design uploaded by user -->
-        <div class="relative w-full h-full overflow-hidden transform scale-50 opacity-0 transition-all duration-700 ease-out flex items-center justify-center" id="vr-curtain-container">
-            <img id="vr-curtain-design" class="max-w-full max-h-full object-contain rounded-md shadow-[0_0_50px_rgba(0,0,0,0.8)]" src="" alt="Design Preview">
+    <!-- Design Preview Modal -->
+    <div id="virtual-room-modal"
+        class="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-md">
+        <button id="close-vr-btn"
+            class="absolute top-8 right-8 text-white hover:text-primary transition-colors bg-white/10 hover:bg-white/20 p-3 rounded-full cursor-pointer z-50">
+            <span class="material-symbols-outlined text-3xl">close</span>
+        </button>
+        <div class="relative w-[95vw] h-[85vh] max-w-7xl rounded-xl flex items-center justify-center">
+            <!-- The actual flat curtain design uploaded by user -->
+            <div class="relative w-full h-full overflow-hidden transform scale-50 opacity-0 transition-all duration-700 ease-out flex items-center justify-center"
+                id="vr-curtain-container">
+                <img id="vr-curtain-design"
+                    class="max-w-full max-h-full object-contain rounded-md shadow-[0_0_50px_rgba(0,0,0,0.8)]" src=""
+                    alt="Design Preview">
+            </div>
         </div>
     </div>
-</div>
 
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/94763215396" target="_blank" class="whatsapp-float fixed bottom-8 right-8 z-[90] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-    </svg>
-</a>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94763215396" target="_blank"
+        class="whatsapp-float fixed bottom-8 right-8 z-[90] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+    </a>
 
-<script>
-// Virtual Room Logic
-function openVirtualRoom(imageUrl) {
-    const modal = document.getElementById('virtual-room-modal');
-    const curtainDesign = document.getElementById('vr-curtain-design');
-    const container = document.getElementById('vr-curtain-container');
-    
-    // Set the image src to the clicked design
-    curtainDesign.src = imageUrl;
-    
-    // Show Modal
-    modal.classList.add('active');
-    
-    // Trigger expansion animation after slight delay to allow display block to register
-    setTimeout(() => {
-        container.style.transform = 'scale(1)';
-        container.style.opacity = '1';
-    }, 50);
-}
+    <script>
+        // Virtual Room Logic
+        function openVirtualRoom(imageUrl) {
+            const modal = document.getElementById('virtual-room-modal');
+            const curtainDesign = document.getElementById('vr-curtain-design');
+            const container = document.getElementById('vr-curtain-container');
 
-document.getElementById('close-vr-btn').addEventListener('click', () => {
-    const modal = document.getElementById('virtual-room-modal');
-    const container = document.getElementById('vr-curtain-container');
-    
-    // Shrink and fade out inner content
-    container.style.transform = 'scale(50%)';
-    container.style.opacity = '0';
-    
-    // Hide modal after inner animation completes
-    setTimeout(() => {
-        modal.classList.remove('active');
-    }, 500);
-});
-</script>
+            // Set the image src to the clicked design
+            curtainDesign.src = imageUrl;
+
+            // Show Modal
+            modal.classList.add('active');
+
+            // Trigger expansion animation after slight delay to allow display block to register
+            setTimeout(() => {
+                container.style.transform = 'scale(1)';
+                container.style.opacity = '1';
+            }, 50);
+        }
+
+        document.getElementById('close-vr-btn').addEventListener('click', () => {
+            const modal = document.getElementById('virtual-room-modal');
+            const container = document.getElementById('vr-curtain-container');
+
+            // Shrink and fade out inner content
+            container.style.transform = 'scale(50%)';
+            container.style.opacity = '0';
+
+            // Hide modal after inner animation completes
+            setTimeout(() => {
+                modal.classList.remove('active');
+            }, 500);
+        });
+    </script>
 </body>
 
 </html>
