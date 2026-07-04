@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Our Work | Lumina Shades</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Sinhala:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script id="tailwind-config">
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Our Work | Lumina Shades</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Sinhala:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
@@ -86,28 +92,37 @@
                         "headline-md": ["Abhaya Libre", "serif"]
                     },
                     "fontSize": {
-                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
-                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                        "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "400"}],
-                        "label-caps": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.15em", "fontWeight": "700"}],
-                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}]
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.2", "letterSpacing": "0.15em", "fontWeight": "700" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "400" }]
                     }
                 },
             },
         }
     </script>
-<style>
+    <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
 
         /* WhatsApp Button Animation */
         @keyframes pulse-whatsapp {
-            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
-            70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
         }
+
         .whatsapp-float {
             animation: pulse-whatsapp 2s infinite;
         }
@@ -141,347 +156,383 @@
                 opacity: 0;
                 transform: translateY(-10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
+
         .animate-fade-in-down {
             animation: fadeInDown 0.3s ease-out forwards;
         }
     </style>
 </head>
-<body class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
-    <header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
+
+<body
+    class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+    <header
+        class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
         <nav class="max-w-container-max mx-auto px-4 md:px-gutter py-4">
             <div class="flex justify-between items-center w-full">
                 <!-- Mobile Menu Button (Hamburger) -->
-                <button id="mobile-menu-btn" class="md:hidden block text-primary p-1 focus:outline-none rounded-lg hover:bg-surface-variant transition-colors flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                <button id="mobile-menu-btn"
+                    class="md:hidden block text-primary p-1 focus:outline-none rounded-lg hover:bg-surface-variant transition-colors flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
 
-                <a href="#" class="font-headline-md text-xl md:text-[28px] lg:text-headline-md text-primary font-bold cursor-pointer active:scale-95 transition-all text-center md:text-left flex-1 md:flex-none">
+                <a href="#"
+                    class="font-headline-md text-xl md:text-[28px] lg:text-headline-md text-primary font-bold cursor-pointer active:scale-95 transition-all text-center md:text-left flex-1 md:flex-none">
                     New Balangoda <span class="text-secondary hidden sm:inline">Curtain</span>
                 </a>
-                
+
                 <div class="hidden md:flex items-center gap-8 lg:gap-10 mx-auto">
-                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group" href="index.html">
+                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group"
+                        href="index.html">
                         Products
-                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                        <span
+                            class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group" href="oder.html">
+                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group"
+                        href="oder.html">
                         Our Work
-                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                        <span
+                            class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group" href="https://wa.me/94763215396" target="_blank">
+                    <a class="relative text-on-surface-variant hover:text-primary transition-colors font-label-caps text-[11px] lg:text-label-caps cursor-pointer active:scale-95 group"
+                        href="https://wa.me/94763215396" target="_blank">
                         Contact
-                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                        <span
+                            class="absolute -bottom-1 left-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </div>
 
                 <a href="https://wa.me/94763215396" target="_blank"
                     class="flex items-center justify-center gap-2 bg-[#25D366] text-white px-3 py-2 md:px-6 md:py-2.5 rounded-full font-label-caps text-[10px] md:text-sm font-bold cursor-pointer hover:scale-105 transition-transform shadow-md flex-shrink-0 whatsapp-float">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
                     </svg>
                     <span class="hidden md:inline">WhatsApp</span>
                 </a>
             </div>
 
             <!-- Mobile Dropdown Menu -->
-            <div id="mobile-menu" class="hidden md:hidden w-full flex-col items-center gap-4 pt-6 pb-4 border-t border-outline-variant/30 mt-4 animate-fade-in-down">
-                <a class="w-full text-center py-2 text-on-surface-variant hover:text-primary hover:bg-surface-variant rounded-lg font-label-caps tracking-widest text-sm transition-colors" href="index.html">Products</a>
-                <a class="w-full text-center py-2 text-on-surface-variant hover:text-primary hover:bg-surface-variant rounded-lg font-label-caps tracking-widest text-sm transition-colors" href="oder.html">Our Work</a>
-                <a class="w-full text-center py-2 text-on-surface-variant hover:text-primary hover:bg-surface-variant rounded-lg font-label-caps tracking-widest text-sm transition-colors" href="https://wa.me/94763215396" target="_blank">Contact</a>
+            <div id="mobile-menu"
+                class="hidden md:hidden w-full flex-col items-center gap-3 pt-6 pb-6 mt-4 animate-fade-in-down absolute left-0 top-full bg-surface/95 backdrop-blur-2xl border-y border-outline-variant/30 shadow-2xl px-6">
+                <a class="w-full text-center py-3 text-primary bg-primary/5 hover:bg-primary/10 rounded-xl font-label-caps tracking-widest text-sm transition-all shadow-sm"
+                    href="index.html">Products</a>
+                <a class="w-full text-center py-3 text-primary bg-primary/5 hover:bg-primary/10 rounded-xl font-label-caps tracking-widest text-sm transition-all shadow-sm"
+                    href="oder.html">Our Work</a>
+                <a class="w-full text-center py-3 text-primary bg-primary/5 hover:bg-primary/10 rounded-xl font-label-caps tracking-widest text-sm transition-all shadow-sm"
+                    href="https://wa.me/94763215396" target="_blank">Contact</a>
             </div>
         </nav>
     </header>
-<main class="pt-24 md:pt-32">
-<!-- Hero Section -->
-<section class="max-w-container-max mx-auto px-4 md:px-gutter mb-16 pt-4 md:pt-8">
-    <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container-highest" data-aos="fade-down" data-aos-duration="1200">
-        <!-- Background Image with Overlay -->
-        <div id="oder-hero-bg" class="absolute inset-0 bg-cover bg-center opacity-60" style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1920&auto=format&fit=crop'); filter: grayscale(20%);"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-surface/20"></div>
-        
-        <!-- Content -->
-        <div class="relative z-10 py-16 md:py-24 px-6 md:px-10 lg:px-20 max-w-4xl text-center md:text-left mx-auto md:mx-0">
-            <span class="font-label-caps text-secondary tracking-[0.2em] text-xs md:text-sm uppercase block mb-4" data-aos="fade-right" data-aos-delay="200">Portfolio</span>
-            <h1 class="font-display-lg text-4xl sm:text-5xl md:text-7xl text-primary mb-4 md:mb-6 leading-tight" data-aos="fade-up" data-aos-delay="400">
-                Our Work
-            </h1>
-            <p class="font-body-lg text-base md:text-lg text-on-surface-variant max-w-2xl leading-relaxed mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="600">
-                Explore our curated selection of bespoke window treatments. Each project is a dialogue between fabric, light, and architecture, crafted to transform the living experience.
-            </p>
-        </div>
-    </div>
-</section>
+    <main class="pt-24 md:pt-32">
+        <!-- Hero Section -->
+        <section class="max-w-container-max mx-auto px-4 md:px-gutter mb-16 pt-4 md:pt-8">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container-highest"
+                data-aos="fade-down" data-aos-duration="1200">
+                <!-- Background Image with Overlay -->
+                <div id="oder-hero-bg" class="absolute inset-0 bg-cover bg-center opacity-60"
+                    style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1920&auto=format&fit=crop'); filter: grayscale(20%);">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-surface/20"></div>
 
-<!-- Expanded Gallery Grid -->
-<section class="max-w-container-max mx-auto px-gutter mb-section-gap">
-<div id="dynamic-gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-    <!-- Dynamic images will be loaded here by JavaScript -->
-</div>
-<div class="mt-20 flex justify-center">
-<button id="load-more-btn" class="group flex flex-col items-center gap-4 transition-all">
-<span class="font-label-caps text-label-caps text-on-surface-variant tracking-widest group-hover:text-primary">Load More Projects</span>
-<div class="w-10 h-10 border border-outline-variant flex items-center justify-center rounded-full group-hover:border-primary group-hover:bg-primary/5 transition-all">
-<span class="material-symbols-outlined text-secondary group-hover:translate-y-1 transition-transform">expand_more</span>
-</div>
-</button>
-</div>
-</section>
-<!-- Quote Separator -->
-<section class="max-w-container-max mx-auto px-gutter mb-section-gap">
-<div class="py-16 border-y border-outline-variant/30 flex flex-col items-center text-center" data-aos="fade-up" data-aos-duration="1000">
-<span class="material-symbols-outlined text-secondary text-4xl mb-6" style="font-variation-settings: 'FILL' 1;">format_quote</span>
-<blockquote class="font-display-lg text-3xl md:text-4xl text-primary max-w-3xl leading-relaxed">
-                "Lumina Shades didn't just cover our windows; they choreographed the way light moves through our home."
-            </blockquote>
-<cite class="mt-8 font-label-caps text-label-caps text-on-surface-variant not-italic tracking-widest">INTERIOR DESIGNER, NYC</cite>
-</div>
-</section>
-
-</main>
-<footer class="bg-inverse-surface w-full relative overflow-hidden text-inverse-on-surface mt-20">
-    <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, #fff 1px, transparent 0); background-size: 60px 60px;"></div>
-    <div class="max-w-container-max mx-auto px-gutter py-16 relative z-10 flex flex-col md:flex-row justify-between gap-16 border-b border-white/10">
-        <div class="flex flex-col gap-6">
-            <div class="font-headline-md text-3xl text-white">
-                NEW BALANGODA CURTAIN
+                <!-- Content -->
+                <div
+                    class="relative z-10 py-16 md:py-24 px-6 md:px-10 lg:px-20 max-w-4xl text-center md:text-left mx-auto md:mx-0">
+                    <span
+                        class="font-label-caps text-secondary tracking-[0.2em] text-xs md:text-sm uppercase block mb-4"
+                        data-aos="fade-right" data-aos-delay="200">Portfolio</span>
+                    <h1 class="font-display-lg text-4xl sm:text-5xl md:text-7xl text-primary mb-4 md:mb-6 leading-tight"
+                        data-aos="fade-up" data-aos-delay="400">
+                        Our Work
+                    </h1>
+                    <p class="font-body-lg text-base md:text-lg text-on-surface-variant max-w-2xl leading-relaxed mx-auto md:mx-0"
+                        data-aos="fade-up" data-aos-delay="600">
+                        New Balangoda curtain උසස් තත්ත්වයේ තිර රෙදි ඔබේ අවශ්‍යතාවයට ගැලපෙන පරිදි නවීන සහ ආකර්ෂණීය
+                        නිර්මාණ සඳහා අප හා සම්බන්ධ වන්න.
+                </div>
             </div>
-            <div class="font-body-md text-inverse-on-surface/70 max-w-sm leading-relaxed space-y-4">
-                <p>
-                    ඔබගේ නිවසට, කාර්යාලයට හෝ ව්‍යාපාරික ස්ථානයට ගැලපෙන උසස් තත්ත්වයේ තිර රෙදි සහ බ්ලයින්ඩ් විසඳුම්
-                    ලබාදීම අපගේ අරමුණයි. නවීන මෝස්තර, විශ්වාසනීය සේවාව සහ සාධාරණ මිල ගණන් සමඟ ඔබේ අවකාශය වඩාත් අලංකාර
-                    කරමු.
-                </p>
-                <div>
-                    <h4 class="font-semibold text-white mb-2">අපගේ සේවාවන්</h4>
-                    <ul class="list-disc pl-5 space-y-1 text-sm">
-                        <li>Curtain Design</li>
-                        <li>Custom Made Curtains</li>
-                        <li>Blinds Installation</li>
-                        <li>Free Measurements</li>
-                        <li>Home & Office Solutions</li>
-                    </ul>
+        </section>
+
+        <!-- Expanded Gallery Grid -->
+        <section class="max-w-container-max mx-auto px-4 md:px-gutter mb-section-gap mt-16 md:mt-24">
+            <!-- Gallery Header -->
+            <div class="flex flex-col items-center text-center mb-12 md:mb-16" data-aos="fade-up">
+                <span
+                    class="font-label-caps text-secondary tracking-[0.2em] text-xs md:text-sm uppercase block mb-3 md:mb-4">Curated
+                    Collection</span>
+                <h2 class="font-display-lg text-4xl md:text-5xl text-primary mb-4 md:mb-6">New Balangoda <span
+                        class="text-secondary">Curtain</span></h2>
+                <div class="w-16 h-1 bg-secondary mx-auto opacity-70"></div>
+            </div>
+
+            <!-- Masonry Grid -->
+            <div id="dynamic-gallery-grid"
+                class="columns-1 sm:columns-2 lg:columns-3 gap-6 md:gap-8 space-y-6 md:space-y-8">
+                <!-- Dynamic images will be loaded here by JavaScript -->
+            </div>
+            <div class="mt-20 flex justify-center">
+                <button id="load-more-btn" class="group flex flex-col items-center gap-4 transition-all">
+                    <span
+                        class="font-label-caps text-label-caps text-on-surface-variant tracking-widest group-hover:text-primary">Load
+                        More Projects</span>
+                    <div
+                        class="w-10 h-10 border border-outline-variant flex items-center justify-center rounded-full group-hover:border-primary group-hover:bg-primary/5 transition-all">
+                        <span
+                            class="material-symbols-outlined text-secondary group-hover:translate-y-1 transition-transform">expand_more</span>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <!-- Quote Separator -->
+        <section class="max-w-container-max mx-auto px-gutter mb-section-gap">
+            <div class="py-16 border-y border-outline-variant/30 flex flex-col items-center text-center"
+                data-aos="fade-up" data-aos-duration="1000">
+                <span class="material-symbols-outlined text-secondary text-4xl mb-6"
+                    style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                <blockquote class="font-display-lg text-3xl md:text-4xl text-primary max-w-3xl leading-relaxed">
+                    "New Balangoda Curtain – ඔබේ නිවසේ අලංකාරයට විශ්වාසනීය සහකරු"
+                </blockquote>
+                <cite class="mt-8 font-label-caps text-label-caps text-on-surface-variant not-italic tracking-widest">©
+                    New Balangoda Curtain</cite>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-inverse-surface w-full relative overflow-hidden text-inverse-on-surface mt-20">
+        <div class="absolute inset-0 opacity-10 pointer-events-none"
+            style="background-image: radial-gradient(circle at 2px 2px, #fff 1px, transparent 0); background-size: 60px 60px;">
+        </div>
+        <div
+            class="max-w-container-max mx-auto px-gutter py-16 relative z-10 flex flex-col md:flex-row justify-between gap-16 border-b border-white/10">
+            <div class="flex flex-col gap-6">
+                <div class="font-headline-md text-3xl text-white">
+                    NEW BALANGODA CURTAIN
+                </div>
+                <div class="font-body-md text-inverse-on-surface/70 max-w-sm leading-relaxed space-y-4">
+                    <p>
+                        ඔබගේ නිවසට, කාර්යාලයට හෝ ව්‍යාපාරික ස්ථානයට ගැලපෙන උසස් තත්ත්වයේ තිර රෙදි සහ බ්ලයින්ඩ් විසඳුම්
+                        ලබාදීම අපගේ අරමුණයි. නවීන මෝස්තර, විශ්වාසනීය සේවාව සහ සාධාරණ මිල ගණන් සමඟ ඔබේ අවකාශය වඩාත්
+                        අලංකාර
+                        කරමු.
+                    </p>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2">අපගේ සේවාවන්</h4>
+                        <ul class="list-disc pl-5 space-y-1 text-sm">
+                            <li>Curtain Design</li>
+                            <li>Custom Made Curtains</li>
+                            <li>Blinds Installation</li>
+                            <li>Free Measurements</li>
+                            <li>Home & Office Solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-16">
+                <div class="flex flex-col gap-4">
+                    <span
+                        class="font-label-caps text-[11px] text-amber-500 tracking-widest uppercase mb-2">Explore</span>
+                    <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
+                        href="#">Products</a>
+                    <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
+                        href="#">Gallery</a>
+
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span
+                        class="font-label-caps text-[11px] text-amber-500 tracking-widest uppercase mb-2">Connect</span>
+                    <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
+                        href="https://wa.me/94763215396" target="_blank">Contact Us</a>
+                    <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors"
+                        href="https://www.facebook.com/profile.php?id=61571159896916&mibextid=ZbWKwL"
+                        target="_blank">Facebook</a>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-16">
-            <div class="flex flex-col gap-4">
-                <span class="font-label-caps text-[11px] text-amber-500 tracking-widest uppercase mb-2">Explore</span>
-                <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors" href="#">Products</a>
-                <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors" href="#">Gallery</a>
-                
-            </div>
-            <div class="flex flex-col gap-4">
-                <span class="font-label-caps text-[11px] text-amber-500 tracking-widest uppercase mb-2">Connect</span>
-                <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors" href="https://wa.me/94763215396" target="_blank">Contact Us</a>
-                <a class="font-body-md text-inverse-on-surface/80 hover:text-white transition-colors" href="https://www.facebook.com/profile.php?id=61571159896916&mibextid=ZbWKwL" target="_blank">Facebook</a>
-            </div>
+        <div
+            class="max-w-container-max mx-auto px-gutter py-6 relative z-10 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="font-body-md text-sm text-inverse-on-surface/50">
+                © 2026 New Balangoda Curtain. All rights reserved.
+            </p>
+            <p class="font-label-caps text-[10px] tracking-widest text-amber-500/80">
+                DEVELOPED BY NEW BALANGODA CURTAIN
+            </p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94763215396" target="_blank"
+        class="whatsapp-float fixed bottom-8 right-8 z-[90] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+    </a>
+
+    <!-- Image Preview Modal -->
+    <div id="virtual-room-modal"
+        class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+        <button id="close-vr-btn"
+            class="absolute top-4 right-4 md:top-8 md:right-8 text-white hover:text-gray-300 transition-colors bg-white/10 hover:bg-white/20 p-2 md:p-3 rounded-full cursor-pointer z-50">
+            <span class="material-symbols-outlined text-2xl md:text-3xl">close</span>
+        </button>
+        <div class="relative w-[95vw] h-[90vh] max-w-7xl flex items-center justify-center p-2 md:p-4">
+            <img id="vr-curtain-design" class="max-w-full max-h-full object-contain shadow-2xl rounded-lg" src=""
+                alt="Image Preview">
         </div>
     </div>
-    <div class="max-w-container-max mx-auto px-gutter py-6 relative z-10 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="font-body-md text-sm text-inverse-on-surface/50">
-            Â© 2024 New Balangoda Curtain. All rights reserved.
-        </p>
-        <p class="font-label-caps text-[10px] tracking-widest text-amber-500/80">
-            DEVELOPED BY NEW BALANGODA CURTAIN
-        </p>
-    </div>
-</footer>
 
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/94763215396" target="_blank" class="whatsapp-float fixed bottom-8 right-8 z-[90] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-    </svg>
-</a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+        });
 
-<!-- Design Preview Modal -->
-<div id="virtual-room-modal"
-    class="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-500">
-    <button id="close-vr-btn"
-        class="absolute top-8 right-8 text-white hover:text-primary transition-colors bg-white/10 hover:bg-white/20 p-3 rounded-full cursor-pointer z-50">
-        <span class="material-symbols-outlined text-3xl">close</span>
-    </button>
-    <div class="relative w-[95vw] h-[85vh] max-w-7xl rounded-xl flex items-center justify-center">
-        <!-- The actual flat curtain design uploaded by user -->
-        <div class="relative w-full h-full overflow-hidden transform scale-50 opacity-0 transition-all duration-700 ease-out flex items-center justify-center"
-            id="vr-curtain-container">
-            <img id="vr-curtain-design"
-                class="max-w-full max-h-full object-contain rounded-md shadow-[0_0_50px_rgba(0,0,0,0.8)]" src=""
-                alt="Design Preview">
-        </div>
-    </div>
-</div>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        offset: 50,
-    });
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                });
+            }
+        });
 
-    // Mobile Menu Toggle
-    document.addEventListener('DOMContentLoaded', () => {
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
+        // Image Preview Logic
+        function openVirtualRoom(imageUrl) {
+            const modal = document.getElementById('virtual-room-modal');
+            const curtainDesign = document.getElementById('vr-curtain-design');
 
-        if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            });
+            curtainDesign.src = imageUrl;
+
+            modal.classList.add('active');
+            modal.style.opacity = '1';
+            modal.style.pointerEvents = 'auto';
         }
-    });
 
-    // Virtual Room Logic
-    function openVirtualRoom(imageUrl) {
-        const modal = document.getElementById('virtual-room-modal');
-        const curtainDesign = document.getElementById('vr-curtain-design');
-        const container = document.getElementById('vr-curtain-container');
-
-        // Set the image src to the clicked design
-        curtainDesign.src = imageUrl;
-
-        // Show Modal
-        modal.classList.add('active');
-        modal.style.opacity = '1';
-        modal.style.pointerEvents = 'auto';
-
-        // Trigger expansion animation after slight delay to allow display block to register
-        setTimeout(() => {
-            container.style.transform = 'scale(1)';
-            container.style.opacity = '1';
-        }, 50);
-    }
-
-    document.getElementById('close-vr-btn').addEventListener('click', () => {
-        const modal = document.getElementById('virtual-room-modal');
-        const container = document.getElementById('vr-curtain-container');
-
-        // Shrink and fade out inner content
-        container.style.transform = 'scale(50%)';
-        container.style.opacity = '0';
-
-        // Hide modal after inner animation completes
-        setTimeout(() => {
+        document.getElementById('close-vr-btn').addEventListener('click', () => {
+            const modal = document.getElementById('virtual-room-modal');
             modal.style.opacity = '0';
             modal.style.pointerEvents = 'none';
             modal.classList.remove('active');
-        }, 500);
-    });
+        });
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const isGallery = window.location.pathname.includes('extracted_other');
-        const apiPath = 'https://curtain.kaveesha.top/api';
-        
-        // Base path for uploads
-        const uploadPath = 'https://curtain.kaveesha.top/';
-        
-        // Fetch Order Images Dynamically
-        let allOrderImages = [];
-        let currentOrderCount = 0;
-        const orderLoadSize = 9;
-        const grid = document.getElementById('dynamic-gallery-grid');
-        const loadMoreBtn = document.getElementById('load-more-btn');
+        document.addEventListener('DOMContentLoaded', () => {
+            const isGallery = window.location.pathname.includes('extracted_other');
+            const apiPath = 'https://curtain.kaveesha.top/api';
 
-        // Fetch Hero Background Config
-        fetch(apiPath + '/get_config.php')
-            .then(res => res.json())
-            .then(data => {
-                if (data && data.order_ui_img) {
-                    const heroBg = document.getElementById('oder-hero-bg');
-                    if(heroBg) heroBg.style.backgroundImage = `url('${uploadPath + data.order_ui_img}')`;
-                }
-            }).catch(e => console.log('Config error', e));
+            // Base path for uploads
+            const uploadPath = 'https://curtain.kaveesha.top/';
 
-        fetch(apiPath + '/get_order_images.php')
-            .then(res => res.json())
-            .then(data => {
-                if (data.length === 0) {
-                    grid.innerHTML = '<div class="col-span-full text-center py-20 text-on-surface-variant font-body-lg">Check back later for our latest projects.</div>';
-                    if(loadMoreBtn) loadMoreBtn.style.display = 'none';
-                    return;
-                }
-                allOrderImages = data;
-                grid.innerHTML = '';
-                renderNextOrderImages();
-            }).catch(e => console.log('Dynamic gallery error', e));
+            // Fetch Order Images Dynamically
+            let allOrderImages = [];
+            let currentOrderCount = 0;
+            const orderLoadSize = 9;
+            const grid = document.getElementById('dynamic-gallery-grid');
+            const loadMoreBtn = document.getElementById('load-more-btn');
 
-        function renderNextOrderImages() {
-            const nextBatch = allOrderImages.slice(currentOrderCount, currentOrderCount + orderLoadSize);
-            
-            nextBatch.forEach((item, batchIndex) => {
-                const totalIndex = currentOrderCount + batchIndex;
-                const delay = (totalIndex % 3) * 100;
-                
-                const el = document.createElement('div');
-                el.className = `flex flex-col gap-4`;
-                el.setAttribute('data-aos', 'fade-up');
-                el.setAttribute('data-aos-duration', '1000');
-                if(delay > 0) el.setAttribute('style', `transition-delay: ${delay}ms;`);
-                
-                el.innerHTML = `
-                    <div class="museum-card p-3 border border-outline-variant/30 bg-white/5 group h-full shadow-lg hover:shadow-2xl transition-all duration-500 rounded-lg">
-                        <div class="relative overflow-hidden aspect-square mb-4 rounded-md bg-surface-container-high cursor-pointer" onclick="openVirtualRoom('${uploadPath + item.image_url}')">
-                            <img alt="Order Gallery Image ${totalIndex + 1}" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="${uploadPath + item.image_url}"/>
-                            <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center p-4">
-                                <div class="w-12 h-12 border border-on-primary/50 rounded-full flex items-center justify-center mb-2 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-100">
-                                    <span class="material-symbols-outlined text-on-primary">zoom_in</span>
+            // Fetch Hero Background Config
+            fetch(apiPath + '/get_config.php')
+                .then(res => res.json())
+                .then(data => {
+                    if (data && data.order_ui_img) {
+                        const heroBg = document.getElementById('oder-hero-bg');
+                        if (heroBg) heroBg.style.backgroundImage = `url('${uploadPath + data.order_ui_img}')`;
+                    }
+                }).catch(e => console.log('Config error', e));
+
+            fetch(apiPath + '/get_order_images.php')
+                .then(res => res.json())
+                .then(data => {
+                    if (data.length === 0) {
+                        grid.innerHTML = '<div class="col-span-full text-center py-20 text-on-surface-variant font-body-lg">Check back later for our latest projects.</div>';
+                        if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+                        return;
+                    }
+                    allOrderImages = data;
+                    grid.innerHTML = '';
+                    renderNextOrderImages();
+                }).catch(e => console.log('Dynamic gallery error', e));
+
+            function renderNextOrderImages() {
+                const nextBatch = allOrderImages.slice(currentOrderCount, currentOrderCount + orderLoadSize);
+
+                nextBatch.forEach((item, batchIndex) => {
+                    const totalIndex = currentOrderCount + batchIndex;
+                    const delay = (totalIndex % 3) * 100;
+
+                    const el = document.createElement('div');
+                    el.className = `break-inside-avoid`;
+                    el.setAttribute('data-aos', 'fade-up');
+                    el.setAttribute('data-aos-duration', '1000');
+                    if (delay > 0) el.setAttribute('style', `transition-delay: ${delay}ms;`);
+
+                    el.innerHTML = `
+                    <div class="museum-card p-2 md:p-3 border border-outline-variant/30 bg-white/5 group shadow-lg hover:shadow-2xl transition-all duration-500 rounded-2xl relative overflow-hidden">
+                        <div class="relative w-full rounded-xl overflow-hidden bg-surface-container-low">
+                            <img src="${uploadPath + item.image_url}" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" alt="Work ${totalIndex + 1}">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer" onclick="openVirtualRoom('${uploadPath + item.image_url}')">
+                                <div class="text-center transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+                                    <span class="block font-label-caps text-sm tracking-widest text-white font-bold drop-shadow-md">VIEW IMAGE</span>
                                 </div>
-                                <span class="text-on-primary font-label-caps text-xs tracking-widest transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-200">VIEW FULLSCREEN</span>
                             </div>
                         </div>
                     </div>
                 `;
-                grid.appendChild(el);
-            });
-            
-            currentOrderCount += nextBatch.length;
-            
-            if (loadMoreBtn) {
-                if (currentOrderCount >= allOrderImages.length) {
-                    loadMoreBtn.style.display = 'none';
-                } else {
-                    loadMoreBtn.style.display = 'flex';
+                    grid.appendChild(el);
+                });
+
+                currentOrderCount += nextBatch.length;
+
+                if (loadMoreBtn) {
+                    if (currentOrderCount >= allOrderImages.length) {
+                        loadMoreBtn.style.display = 'none';
+                    } else {
+                        loadMoreBtn.style.display = 'flex';
+                    }
                 }
+
+                if (typeof AOS !== 'undefined') AOS.refresh();
             }
-            
-            if (typeof AOS !== 'undefined') AOS.refresh();
-        }
-        
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', renderNextOrderImages);
-        }
 
-        // Price Calculator Logic
-        const calcBtn = document.getElementById('calc-btn');
-        if (calcBtn) {
-            calcBtn.addEventListener('click', () => {
-                const width = parseFloat(document.getElementById('calc-width').value) || 0;
-                const height = parseFloat(document.getElementById('calc-height').value) || 0;
-                const total = width * height * pricePerSqFt;
-                
-                const resultEl = document.getElementById('calc-result');
-                if(resultEl) {
-                    resultEl.style.transform = 'scale(1.1)';
-                    resultEl.style.color = '#775a19';
-                    resultEl.innerText = 'Rs. ' + total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-                    setTimeout(() => resultEl.style.transform = 'scale(1)', 300);
-                }
-            });
-        }
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', renderNextOrderImages);
+            }
 
-    });
-</script>
-</body></html>
+            // Price Calculator Logic
+            const calcBtn = document.getElementById('calc-btn');
+            if (calcBtn) {
+                calcBtn.addEventListener('click', () => {
+                    const width = parseFloat(document.getElementById('calc-width').value) || 0;
+                    const height = parseFloat(document.getElementById('calc-height').value) || 0;
+                    const total = width * height * pricePerSqFt;
 
+                    const resultEl = document.getElementById('calc-result');
+                    if (resultEl) {
+                        resultEl.style.transform = 'scale(1.1)';
+                        resultEl.style.color = '#775a19';
+                        resultEl.innerText = 'Rs. ' + total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                        setTimeout(() => resultEl.style.transform = 'scale(1)', 300);
+                    }
+                });
+            }
 
+        });
+    </script>
+</body>
 
-
-
+</html>
